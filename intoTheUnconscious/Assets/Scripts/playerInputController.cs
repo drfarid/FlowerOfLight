@@ -5,10 +5,19 @@ using UnityEngine;
 public class playerInputController : MonoBehaviour
 {
 
+	float speed = 4f;
+	float rotSpeed = 80f;
+	float rot = 0f;
+	float gravity = 8f;
+
+	Vector3 moveDir = Vector3.zero;
+	CharacterController controller;
 	Animator playerAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
+    	controller = gameObject.GetComponent<CharacterController>();
         playerAnimator = gameObject.GetComponent<Animator>();
     }
 
@@ -16,16 +25,27 @@ public class playerInputController : MonoBehaviour
     void Update()
     {
 
-    	//if you stop having a forward component
-    	//then you are either standing still or turning
-        if (Input.GetKeyDown("space")) {
-        	Debug.Log("pressed space");
-            playerAnimator.SetBool("isRunning", true);
-        }
+    	if (controller.isGrounded) {
+    		if (Input.GetKey(KeyCode.UpArrow)) {
+    			playerAnimator.SetBool("isRunning", true);
+    			moveDir = new Vector3(0, 0, 1);
+    			moveDir *= speed; 
+    			moveDir = transform.TransformDirection(moveDir);
+    		}
+    		if (Input.GetKeyUp(KeyCode.UpArrow)) {
+    			moveDir = new Vector3(0, 0, 0);
+    			playerAnimator.SetBool("isRunning", false);
+    		}
+    	} else {
+    		moveDir = new Vector3(0, 0, 0);
+    		playerAnimator.SetBool("isRunning", false);
+    	}
+    	
+    	rot  += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+    	transform.eulerAngles = new Vector3(0, rot, 0);
+    	moveDir.y -= gravity * Time.deltaTime;
+    	controller.Move(moveDir * Time.deltaTime);
 
-        if (Input.GetKeyUp("space")) {
-        	Debug.Log("released it");
-        	playerAnimator.SetBool("isRunning", false);
-        }
+    	
     }
 }
