@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 494}
+  m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 55
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 494}
+  m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 56
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,7 +160,7 @@ MonoBehaviour:
     y: 0
     width: 1090
     height: 731
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
   controlID: 63
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 1090
     height: 454
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
   controlID: 64
 --- !u!114 &9
@@ -208,8 +208,8 @@ MonoBehaviour:
     y: 0
     width: 323
     height: 454
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -408,9 +408,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c4a9ffff
-      m_LastClickedID: -22076
-      m_ExpandedIDs: c6a9ffffdaa9ffffdea9ffffe2a9ffffeaa9ffffeea9fffff2a9fffffaa9fffffea9ffff02aaffff0aaaffff0eaaffff12aaffff1aaaffff1eaaffff22aaffff26aaffff2aaaffff2eaaffff32aaffff42aaffff46aaffff4eaaffff52aaffff56aaffff5eaaffff62aaffff66aaffff6eaaffff72aaffff76aaffff7eaaffff82aaffff86aaffff8eaaffff92aaffff96aaffff9aaaffff9eaaffffa2aaffffa6aaffffaaaaffffaeaaffffb2aaffffbaaaffffbeaaffffc2aaffffc6aaffffceaaffffd2aaffffd6aaffffdaaaffffdeaaffffe4aaffff10abffff8efbffff
+      m_SelectedIDs: ce2c0000
+      m_LastClickedID: 11470
+      m_ExpandedIDs: 8efbffffce2c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -470,9 +470,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -11.218933, y: -3.111063, z: 28.45559}
+    m_Target: {x: 17.143461, y: 2.775368, z: 35.254814}
     speed: 2
-    m_Value: {x: -11.218933, y: -3.111063, z: 28.45559}
+    m_Value: {x: 17.143461, y: 2.775368, z: 35.254814}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -501,13 +501,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.041994367, y: 0.8288456, z: -0.06278861, w: -0.5543571}
+    m_Target: {x: -0.0036094869, y: 0.0062972195, z: -0.000023072567, w: -0.9999749}
     speed: 2
-    m_Value: {x: -0.041994307, y: 0.8288444, z: -0.062788524, w: -0.55435634}
+    m_Value: {x: -0.0036094827, y: 0.006297212, z: -0.00002307254, w: -0.9999737}
   m_Size:
-    m_Target: 32.495777
+    m_Target: 13.276272
     speed: 2
-    m_Value: 32.495777
+    m_Value: 13.276272
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -677,20 +677,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\AdelFarid\Desktop\Game-Portfolio\intoTheUnconscious
+  m_LastProjectPath: C:\Users\AdelFarid\Documents\GitHub\FlowerOfLight\intoTheUnconscious
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 582b0000
-    m_LastClickedID: 11096
-    m_ExpandedIDs: 000000005629000000ca9a3b
+    m_SelectedIDs: 5a290000
+    m_LastClickedID: 10586
+    m_ExpandedIDs: 000000005a29000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,7 +718,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056290000
+    m_ExpandedIDs: 000000005a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,7 +762,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
