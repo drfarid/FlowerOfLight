@@ -31,6 +31,8 @@ public class Waves : MonoBehaviour
         MeshFilter.mesh = Mesh;
     }
 
+   
+
     public float GetHeight(Vector3 position)
     {
         //scale factor and position in local space
@@ -129,6 +131,8 @@ public class Waves : MonoBehaviour
     {
         return index((int)x, (int)z);
     }
+
+
 
     // Update is called once per frame
     void Update()
